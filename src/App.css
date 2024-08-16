@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 20px;
+  color: #fff;
+  background: #09cc7f;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  border-radius: 10px;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  border: 2px solid #09cc7f;
+  text-decoration: none;
+}
+.btn:hover {
+  color: #09cc7f;
+  background: transparent;
+}
+.btn1 {
+  padding: 0.5rem;
+  font-size: 20px;
+  color: #fff;
+  background: #222;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  border-radius: 5px;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
+.btn1:hover {
+  background: #444;
+}
+
+.heading {
+  background: #222;
+  padding: 0.4rem 1rem;
+  color: #fff;
+}
+
+@media (max-width: 890px) {
+  .btn1 {
+    font-size: 14px;
+  }
+}
+
+.input-file {
+  font-size: 16px;
+  background: #fff;
+  border-radius: 10px;
+  width: 90%;
+  outline: none;
+  margin-top: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+::-webkit-file-upload-button {
+  color: white;
+  background: #333;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 0 1px 1px #333;
+  outline: none;
+}
+
+::-webkit-file-upload-button:hover {
+  background: #333;
+}
+
+/* candidate graph result pages */
+.result-graph {
+  width: 80%;
+  height: 400px;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 6rem !important;
+}
+.result-graph .char-bar {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1100px) {
+  .result-graph {
+    width: 80%;
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 900px) {
+  .result-graph {
+    width: 100%;
+    height: 400px;
+    max-width: 700px;
+  }
+}
+
+/* Hr styling */
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.boxs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  padding: 2rem 0rem;
+  background: #222;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.04);
+  color: #fff;
+}
+@media (max-width: 400px) {
+  .boxs {
+    width: 100%;
+  }
+}
+
+/* footer */
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem 4rem;
+  background: #20e496;
+}
+.top .links ul li{
+     list-style: none;
+     
+}
